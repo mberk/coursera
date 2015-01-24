@@ -25,7 +25,7 @@ shinyUI(pageWithSidebar(
     tags$div(tags$h3("Explanation"),
              tags$p("This app aims to (briefly) introduce the user to the potential of Monte Carlo methods in general and Quasi-Monte Carlo methods specifically"),
              tags$p("Imagine we knew that the area of a circle was pi * R^2 but we didn't know the value of pi"),
-             tags$p("We can estimate the area of a unit circle (R=1) by taking random points in 2D space and testing if they fall within the cirlce"),
+             tags$p("We can estimate the area of a circle by taking random points in 2D space and testing if they fall within the cirlce"),
              tags$p("The area is then approximately the number of points in the circle divided by the total number of points"),
              tags$p("The accuracy of the approximation depends on the number of points generated"),
              tags$p("With the second plot set to trace, use the slider to see how the approximation changes as the sample size increase"),
